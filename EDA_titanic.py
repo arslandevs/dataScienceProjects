@@ -45,3 +45,41 @@ sns.countplot('SibSp', data=df)
 sns.jointplot('Fare', 'Age', data=df, kind='reg')
 
 sns.jointplot('Fare', 'Age', data=df, kind='hex')
+
+
+sns.boxplot('Pclass', 'Age', data=df)
+df.head(2)
+
+# df['Pclass'].values
+
+df[['Age', 'Pclass']]
+
+
+def impute_age(cols):
+
+    age = cols[0]
+    pclass = cols[1]
+
+    if pd.isnull(age):
+        if pclass == 0:
+            return 37
+        elif pclass == 1:
+            return 29
+        else:
+            return 24
+    else:
+        return age
+
+
+df['Age'] = df[['Age', 'Pclass']].apply(impute_age, axis=1)
+
+sns.heatmap(df.isnull())  # now no missing age values
+
+
+pd.get_dummies(df['Embarked'], drop_first=True).head()
+
+embark = pd.get_dummies(df['Embarked'], drop_first=True).head()
+sex = pd.get_dummies(df['Sex'], drop_first=True).head()
+
+df.drop(['Sex', 'Cabin', 'Embarked', 'Name', 'Ticket'], axis=1, inplace=True)
+df.head()
