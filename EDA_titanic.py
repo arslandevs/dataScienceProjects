@@ -1,3 +1,8 @@
+from sklearn.metrics import classification_report
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -83,3 +88,36 @@ sex = pd.get_dummies(df['Sex'], drop_first=True).head()
 
 df.drop(['Sex', 'Cabin', 'Embarked', 'Name', 'Ticket'], axis=1, inplace=True)
 df.head()
+
+df = pd.concat([df, embark, sex], axis=1)
+
+df.head()
+
+# Survived is dependent feature remaining are independent
+
+df.drop('Survived', axis=1).head()
+
+df['Survived'].head()
+
+X_train, X_test, y_train, y_test = train_test_split(
+    df.drop('Survived', axis=1), df['Survived'], random_state=100, test_size=0.30)
+
+X_train.head()
+y_train.head()
+
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+predictions = model.predict(X_test)
+
+accuracy = confusion_matrix(y_test, predictions)
+
+
+accuracy = accuracy_score(y_test, predictions)
+
+accuracy
+
+predictions
+
+
+print(classification_report(y_test, predictions))
