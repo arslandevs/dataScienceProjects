@@ -43,3 +43,5 @@ sns.countplot('SibSp', data=df)
 
 
 sns.jointplot('Fare', 'Age', data=df, kind='reg')
+
+sns.jointplot('Fare', 'Age', data=df, kind='hex')
