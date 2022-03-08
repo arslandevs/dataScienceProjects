@@ -5,5 +5,6 @@
 </p>
 
 Data Science projects and analysis.
-- Exploratory Data Analysis(EDA)
+- Titanic Exploratory Data Analysis(EDA)
 - SpacyNLP
+- Detecting Forest Fires using deep learning
