@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/950e1bffe8544c6897818ee87c51f879/artifacts
+end_time: 1648240728498
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 950e1bffe8544c6897818ee87c51f879
+run_uuid: 950e1bffe8544c6897818ee87c51f879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1648240720357
+status: 3
+tags: []
+user_id: Syed Arsalan Amin

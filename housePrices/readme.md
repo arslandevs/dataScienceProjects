@@ -19,6 +19,11 @@ You have some experience with R or Python and machine learning basics. This is a
 - box plot
 - scatter plot
 - histogram
+
+Check how many values are missing!
+<p align='center'>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/missingData.png'?raw=true' alt='drawing' width='300' height='300'/>
+</p>
 ## 2. Feature Engineering
 
 - Missing Values
@@ -27,5 +32,25 @@ You have some experience with R or Python and machine learning basics. This is a
 - Outliers removal
 - categorical to numerical features conversion
 - Feature Scaling
+- Using log normal distribution
+
+Here is a skewed data which need to be in log normal distribution.
+
+<p align='center'>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/skewed.png'?raw=true' alt='drawing' width='300' height='300'/>
+</p>
 
 ## 3. Feature Selection
+
+- Selecting models based on weights importance.
+- Using **SelectFromModel** sklearn method to select important features.
+
+## 4. training and testing
+
+- Using **train_test_split** to divide data in training and testing.
+- Using r2 metric to evaluate the model.
+- Visualize the difference between the predicted and actual **'SalePrice'**.
+
+<p align='center'>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/output_pred.png'?raw=true' alt='drawing' width='300' height='300'/>
+</p>
