@@ -1,4 +1,4 @@
-# **Data Source-Kaggle**
+# **House Prices - Advanced Regression Techniques**
 
 You have some experience with R or Python and machine learning basics. This is a perfect competition for data science students who have completed an online course in machine learning and are looking to expand their skill set before trying a featured competition.
 
@@ -19,10 +19,10 @@ You have some experience with R or Python and machine learning basics. This is a
 - box plot
 - scatter plot
 - histogram
-
+                                                                                                                                                 
 Check how many values are missing!
 <p align='center'>
-<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/missingData.png'?raw=true' alt='drawing' width='300' height='300'/>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/blob/master/housePrices/static/missingData.png'?raw=true' alt='drawing' width='1000' height='400'/>
 </p>
 ## 2. Feature Engineering
 
@@ -37,7 +37,7 @@ Check how many values are missing!
 Here is a skewed data which need to be in log normal distribution.
 
 <p align='center'>
-<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/skewed.png'?raw=true' alt='drawing' width='300' height='300'/>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/blob/master/housePrices/static/skewed.png'?raw=true' alt='drawing' width='500' height='350'/>
 </p>
 
 ## 3. Feature Selection
@@ -52,5 +52,5 @@ Here is a skewed data which need to be in log normal distribution.
 - Visualize the difference between the predicted and actual **'SalePrice'**.
 
 <p align='center'>
-<img src='https://github.com/SyedArsalanAmin/datascience-projects/tree/blob/master/housePrices/static/output_pred.png'?raw=true' alt='drawing' width='300' height='300'/>
+<img src='https://github.com/SyedArsalanAmin/datascience-projects/blob/master/housePrices/static/output_pred.png'?raw=true' alt='drawing' width='1000' height='350'/>
 </p>
