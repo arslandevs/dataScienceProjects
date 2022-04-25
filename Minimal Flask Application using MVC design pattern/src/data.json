@@ -1,0 +1,8 @@
+{
+  "MachineId": 1,
+  "StateId": 223,
+  "Speed": 10,
+  "StateChange": 1,
+  "UnixTime": 1234567890,
+  "Extras": "1,2,3"
+}

@@ -1,0 +1,32 @@
+-- select title,
+--     released_year
+-- from books
+-- order by released_year desc
+-- limit 0, 5;
+-- select title,
+--     author_fname
+-- from books
+-- where author_fname like 'da%';
+-- select title,
+--     author_fname
+-- from books
+-- where title like '%the%';
+-- select title,
+--     stock_quantity
+-- from books
+-- where stock_quantity like '____';
+-- select title
+-- from books
+-- where title like '%\%%';
+-- select title
+-- from books
+-- where title like '%\_%';
+-- select title
+-- from books
+-- where title like '%stories%';
+-- select title,
+--     pages
+-- from books
+-- order by pages desc
+-- limit 1;
+

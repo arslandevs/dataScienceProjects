@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sleepdata-314521",
+  "private_key_id": "04ae4b5b25abf787681e4923ebce37c379b2dcbd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCz0ozmCqagOvIM\n9yg+ByghjHuBOQk9u1RVmA3gbSJkpRZaY0USe9wZHdvhdIZ43THkistGVzVajK5t\nJHlmOlsFmSfa2W4Xg4VlAs5GwAkOqDmcXeEtfPFDJGTvO2kM+H5hG9Rjtj5hkrpS\nJhHeN9JeG6pLHP18WePEkEFdwtbaLU3aGk6YZ2X5NJuOLvLdurmUsYzwCtlRnpyt\n8gJFaWwXKGGur3/RCH4IZACyYkQOGoFkhgVkFHajjDxiUzjX2RXuGNt3gLlVUJ8X\nYW/BrcTuk1X5uER9Z6/ikL1/IF6L8qHO6NC5wJndjYUs4+MTHAG1jEFQrnNUkqw2\n4VpHz1wXAgMBAAECggEAGC/0yh0vpB4ZoGXURgzyDcUsIvRi36ilY4KkMduWxIvc\nxwP9mUq2DwjQTRyT2TOuJNazGJSICtR2bRwlWiX08qVS/OHB0wGFUqdpyzlvCRzW\nlvJHugsewTsReoj2tzXA0LC3b5a8AFAwpfZp8TEip4w4FTS34d84vvVFCDwPaIwf\nuv9bLgdq0uafDy0ISY80p6GHr8EgK8LvFYhz+uuRj9bnqqIlCLUCRHyXkPua6T9A\nPCKbFgx3i8fw7CPaX/9/qVTUmcDR7fETAnpL4OAwvxrEOonyilOtpeU1uqGuoZC8\nQlewXSoKTM8sfu+78IAueH9bZnzvyfKF54Tw3qB9WQKBgQDvegJEK6wCLlIj0kyX\nLJ9usLOJU7VE7GdVRTd2ma0dbCNkBeCag+hAuivjA2MKu1bIUi4nGry6UFNnrmik\nS0k1SFxDR7DEs3uwN8oxkOkuRrWbP94IN8m1g792kqmVQQS9ejurSijwZkYO70pA\n6mQIXWzup3E7vs1vLkXYm2qJaQKBgQDAOtd2lf3Lx1GtDdIBIA/vqdoXTULxRDe2\n1cG1Z/8RYoPexLyIPUN3fm5c3Bth0fpoSwBxrcsi7JAcspPJUNfZxQiGFkhqpsTD\neuH6mkL9eJ3EVGNnHR96DRw+DmpUb01OUCg8GM1AyaZDASeTAKm3PLjzti+4OFUG\nJSn4PYyJfwKBgCnaixbbAx8GdXipQpWRSPQRke9IYAAByTWP+VeTGDxyL+VFWbHn\np+nYH993MhIoF8y/AC35cE6nx0vxoXxFZDAZy3Y+y1g1fkKYHZB4ISjjVs4hZW7O\nQUSmGApjK5xYVrm+6TrQpUMOvOPTUojx7jXADk/Pl+y3NjReQ/rNftsxAoGAbhcE\n4MBj+nmrWB2rIMPY/Jvc8C1qYjx8X/SpnJfzp2QxO7qWcrwLUHsS/5F7CRm1fFc/\n6NrslJLAsf6/zrLC+8/w4sIONS5PT9inZNtF9F5IlHD0ANDX/xFVFGEzGiooLuqP\nMGPP4QPbeVJG9NSTXgKjtceoKqvwXbWZBLdTLkcCgYEAwHJp9i0pjPDHmTqKnaz9\n1yiVgEQB2/T3PO5teO3vC/r0XrML3gKl3lDRqChTPI51AL2uZt0e3qR4TMsvIWon\nvVPyzV3qp4PrulSWTCxayxsk+si7D5asguhPif1TLZSBNsH7//4zJUkhmVX5OUIE\njRaZl0hoo6M+fc2/8eEqZSI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sleepdata@sleepdata-314521.iam.gserviceaccount.com",
+  "client_id": "101696008502075514929",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sleepdata%40sleepdata-314521.iam.gserviceaccount.com"
+}
